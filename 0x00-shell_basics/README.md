@@ -25,3 +25,5 @@ Use `ls -al . .. /boot` to list all files beginning with period character with a
 Use `file /tmp/iamafile` print the file type of a file named `iamafile`
 
 Use `ln -s /bin/ls` to create a symbolic link in `/bin/ls` called __ls__
+
+Use `cp -nu *.html` to copy all tml files from the current working directory to the parent working directory but only copy file that did not exist in the `parent` directory or were newer than the `versions` on the parent directory
