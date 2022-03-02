@@ -30,4 +30,6 @@ Use `cp -nu *.html` to copy all html files from the current working directory to
 
 Use `mv [[:upper:]]* /tmp/u` move all files beginning with an uppercase letter into a the directory `/tmp/u`
 
-Use `rm *~ delete all files in the `cwd` that end with the character `~`
+Use `rm *~` delete all files in the `cwd` that end with the character `~`
+
+Use `mkdir -p welcome/to/school` to creates the directories `welcome` , `welcome/to`, `welcome/to/school` in th current working directory
