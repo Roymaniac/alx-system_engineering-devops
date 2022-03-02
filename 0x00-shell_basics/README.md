@@ -23,3 +23,5 @@ Use `cd -` change the working directory to the previous one
 Use `ls -al . .. /boot` to list all files beginning with period character with are normally hidden in `current` dir `parent` working dir and `boot`
 
 Use `file /tmp/iamafile` print the file type of a file named `iamafile`
+
+Use `ln -s /bin/ls` to create a symbolic link in `/bin/ls` called __ls__
