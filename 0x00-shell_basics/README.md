@@ -35,3 +35,5 @@ Use `rm *~` delete all files in the `cwd` that end with the character `~`
 Use `mkdir -p welcome/to/school` to creates the directories `welcome` , `welcome/to`, `welcome/to/school` in the current working directory
 
 Use `ls pamv` list all directories and files of the current directory seperated by commas (,)
+
+Use `!:mime School` to detect a `School` data file which contains the string `SCHOOL`  at offset 0
