@@ -19,3 +19,5 @@ Use `rm /tmp/my_first_directory/betty` to delete a file in the subdirectories of
 Use `rm -r /tmp/my_first_directory` to delete a directory and it contents
 
 Use `cd -` change the working directory to the previous one
+
+Use `ls -al . .. /boot` to list all files beginning with period character with are normally hidden in `current` dir `parent` working dir and `boot`
