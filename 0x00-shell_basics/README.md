@@ -32,4 +32,6 @@ Use `mv [[:upper:]]* /tmp/u` move all files beginning with an uppercase letter i
 
 Use `rm *~` delete all files in the `cwd` that end with the character `~`
 
-Use `mkdir -p welcome/to/school` to creates the directories `welcome` , `welcome/to`, `welcome/to/school` in th current working directory
+Use `mkdir -p welcome/to/school` to creates the directories `welcome` , `welcome/to`, `welcome/to/school` in the current working directory
+
+Use `ls pamv` list all directories and files of the current directory seperated by commas (,)
