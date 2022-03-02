@@ -15,3 +15,5 @@ Use `mkdir /tmp/my_first_directory` to create a directory `my_first_directory` i
 Use `mv /tmp/betty /tmp/my_first_directory` to move the file `betty` from the `tmp` directory into `my_first_directory` in the `tmp`directory
 
 Use `rm /tmp/my_first_directory/betty` to delete a file in the subdirectories of `tmp` called `my_first_directory`
+
+Use `rm -r /tmp/my_first_directory` to delete a directory and it contents
