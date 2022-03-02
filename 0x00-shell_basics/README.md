@@ -6,4 +6,4 @@ Use `cd /root` change the working directory to user's home directory
 
 Use `ls -l` display current directory contents in long format
 
-Use `ls -la ..` display drectory contents with hidden files
+Use `ls -la` display drectory contents with hidden files
