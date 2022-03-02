@@ -11,3 +11,6 @@ Use `ls -al` display directory contents with hidden files
 Use `ls -lna` display directory content in long format, hidden files with user and group ID's numerically
 
 Use `mkdir /tmp/my_first_directory` to create a directory `my_first_directory` in `/tmp` directory
+
+Use `mv /tmp/betty /tmp/my_first_directory` to move the file `betty` from the `tmp` directory into `my_first_directory` in the `tmp`directory
+
