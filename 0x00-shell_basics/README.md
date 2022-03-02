@@ -17,3 +17,5 @@ Use `mv /tmp/betty /tmp/my_first_directory` to move the file `betty` from the `t
 Use `rm /tmp/my_first_directory/betty` to delete a file in the subdirectories of `tmp` called `my_first_directory`
 
 Use `rm -r /tmp/my_first_directory` to delete a directory and it contents
+
+Use `cd -` change the working directory to the previous one
