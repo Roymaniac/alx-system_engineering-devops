@@ -7,3 +7,5 @@ Use `groups` to get all groups the current user is part of
 Use `chown betty hello` to change the owner of the file `hello` to the user `betty`
 
 Use `touch` to create an empty file called `hello`
+
+Use `chmod u+x hello` to add execution permission to the owner of the file `hello`
