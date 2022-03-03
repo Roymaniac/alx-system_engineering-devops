@@ -22,4 +22,6 @@ Use `chmod --reference=olleh hello`set the mode of file `hello` to the same as `
 
 Use `chmod a+X *` add execute permission to all subdirectories of the current directory `owner`, `group owner` & all `other users` 
 
-Use `mkdir -m 751 my_dir` create a directory called `my_dir` with the permission `751` in working directory 
+Use `mkdir -m 751 my_dir` create a directory called `my_dir` with the permission `751` in working directory
+
+Use `chgrp school hello` to change the `group owner` to `school` for the file `hello`
