@@ -29,3 +29,6 @@ Use `chgrp school hello` to change the `group owner` to `school` for the file `h
 Use `chown vincent:staff *` to change `owner` to `vincent` and `group owner` to `staff`
 
 Use `chown -h vincent:staff _hello` to change the `owner` and `group owner` associated with the file `_hello`
+
+
+Use`chown --from=guillaume betty hello` to change the `owner` if the file `hello` to `betty` if only it is owned by `guillaume`
