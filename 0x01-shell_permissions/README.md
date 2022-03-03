@@ -9,3 +9,5 @@ Use `chown betty hello` to change the owner of the file `hello` to the user `bet
 Use `touch` to create an empty file called `hello`
 
 Use `chmod u+x hello` to add execution permission to the owner of the file `hello`
+
+Use `chmod ug+x,o+r hello` set execute permissions for the `owner` &  `group owner`, and read permission for other users
