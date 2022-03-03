@@ -20,4 +20,6 @@ Use `chmod 753 hello` set the mode of all file `hello` to this `-rwxr-x-wx`
 
 Use `chmod --reference=olleh hello`set the mode of file `hello` to the same as `olleh` mode
 
-Use `chmod a+X *` add execute permission to all subdirectories of the current directory `owner`, `group owner` & all `other users`  
+Use `chmod a+X *` add execute permission to all subdirectories of the current directory `owner`, `group owner` & all `other users` 
+
+Use `mkdir -m 751 my_dir` create a directory called `my_dir` with the permission `751` in working directory 
