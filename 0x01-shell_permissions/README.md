@@ -32,3 +32,5 @@ Use `chown -h vincent:staff _hello` to change the `owner` and `group owner` asso
 
 
 Use`chown --from=guillaume betty hello` to change the `owner` if the file `hello` to `betty` if only it is owned by `guillaume`
+
+Use `telnet towel.blinkenlights.nl` to play the Star wars episode IV in the terminal
