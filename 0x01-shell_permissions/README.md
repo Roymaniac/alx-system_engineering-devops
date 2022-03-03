@@ -16,4 +16,6 @@ Use `chmod a+x`to add execution permission on `owner`, `group owner` & `other us
 
 Use `chmod 007 hello` set permission to the file `hello` given each different permission
 
-Use `chmod 753 hello` set the mode of all file `hello` to this `-rwxr-x-wx`  
+Use `chmod 753 hello` set the mode of all file `hello` to this `-rwxr-x-wx`
+
+Use `chmod --reference=olleh hello`set the mode of file `hello` to the same as `olleh` mode  
