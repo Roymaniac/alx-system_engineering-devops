@@ -10,4 +10,6 @@ Use `touch` to create an empty file called `hello`
 
 Use `chmod u+x hello` to add execution permission to the owner of the file `hello`
 
-Use `chmod ug+x,o+r hello` set execute permissions for the `owner` &  `group owner`, and read permission for other users
+Use `chmod ug+x,o+r hello` set execute permission for the `owner` &  `group owner`, and read permission for `other users`
+
+Use `chmod a+x`to add execution permission on `owner`, `group owner` & `other user`
