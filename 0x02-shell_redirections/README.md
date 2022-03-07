@@ -19,3 +19,5 @@ Use `tail -1 < iacta >> iacta` to duplicate the last line of `iacta` file
 Use `find -name "*.js" -type f -delete` to delete all regular `.js` files extension present in cwd and subdirectory
 
 Use `find . -type d ! -path . -print | wc -l` count number directories and subdirectories in cwd
+
+Use `ls -1t | head -10` display the 10 newest files in the cwd
