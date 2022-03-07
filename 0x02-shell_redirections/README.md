@@ -23,3 +23,5 @@ Use `find . -type d ! -path . -print | wc -l` count number directories and subdi
 Use `ls -1t | head -10` display the 10 newest files in the cwd
 
 Use `sort | uniq -u` print out words tht appear once
+
+Use `grep "root" /etc/passwd` display lines containing pattern `root` in file `passwd`
