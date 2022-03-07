@@ -35,3 +35,5 @@ Use `grep -A 3 "root" /etc/passwd` display lines conataining the pattern `root` 
 Use `grep -v "bin" /etc/passwd`display line in the file that does not contain `bin`
 
 Use `grep ^[[:alpha:]] /etc/ssh/sshd_config` display all line in the file starting with a letter including capital letter
+
+Use `tr 'A' 'Z' | tr 'c' 'e'` replace all character `A` and `c` from input with to `Z` and `e`
