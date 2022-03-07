@@ -15,3 +15,5 @@ Use `echo "file-content" > "file-name"` create a file and write content in it
 Use `ls -la > ls_cwd_content` write into a file `ls_cwd_content` the result of the `ls -la` command
 
 Use `tail -1 < iacta >> iacta` to duplicate the last line of `iacta` file
+
+Use `find -name "*.js" type f -delete` to delete all regular `.js` files extension present in cwd and subdirectory
