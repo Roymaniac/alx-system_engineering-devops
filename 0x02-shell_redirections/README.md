@@ -30,4 +30,4 @@ Use `grep "root" /etc/passwd` display lines containing pattern `root` in file `p
 
 Use `grep -c "bin" /etc/passwd` display the number of lines that contain the pattern `bin` in the file `/tect/passwd`
 
-Use `grep -A "root" /etc/passwd` display lines conataining the pattern `root` and 3 lines after them in the file `passwd`
+Use `grep -A 3 "root" /etc/passwd` display lines conataining the pattern `root` and 3 lines after them in the file `passwd`
