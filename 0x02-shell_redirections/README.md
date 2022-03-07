@@ -38,4 +38,6 @@ Use `grep ^[[:alpha:]] /etc/ssh/sshd_config` display all line in the file starti
 
 Use `tr 'A' 'Z' | tr 'c' 'e'` replace all character `A` and `c` from input with to `Z` and `e`
 
-Use `tr -d 'c' | tr -d 'C' remove all letter `c` and `C` from input 
+Use `tr -d 'c' | tr -d 'C' remove all letter `c` and `C` from input
+
+Use `rev` to reverse input 
