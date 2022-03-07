@@ -17,3 +17,5 @@ Use `ls -la > ls_cwd_content` write into a file `ls_cwd_content` the result of t
 Use `tail -1 < iacta >> iacta` to duplicate the last line of `iacta` file
 
 Use `find -name "*.js" -type f -delete` to delete all regular `.js` files extension present in cwd and subdirectory
+
+Use `find . -type d ! -path . -print | wc -l` count number directories and subdirectories in cwd
