@@ -7,3 +7,5 @@ Use `cat /etc/passwd /etc/hosts` to display the content of two different files `
 Use `tail` to display the last ten lines in a file
 
 Use `head` to display the first ten lines in a file
+
+Use `head -3 | tail -1` to display the third line of the file
