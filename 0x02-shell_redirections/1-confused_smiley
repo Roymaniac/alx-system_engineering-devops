@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "\"<copied_text> \'"
+echo "\"<copied_text>\'"
