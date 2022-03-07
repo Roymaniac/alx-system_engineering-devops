@@ -21,3 +21,5 @@ Use `find -name "*.js" -type f -delete` to delete all regular `.js` files extens
 Use `find . -type d ! -path . -print | wc -l` count number directories and subdirectories in cwd
 
 Use `ls -1t | head -10` display the 10 newest files in the cwd
+
+Use `sort | uniq -u` print out words tht appear once
