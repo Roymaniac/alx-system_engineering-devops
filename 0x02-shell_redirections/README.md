@@ -40,4 +40,6 @@ Use `tr 'A' 'Z' | tr 'c' 'e'` replace all character `A` and `c` from input with 
 
 Use `tr -d 'c' | tr -d 'C' remove all letter `c` and `C` from input
 
-Use `rev` to reverse input 
+Use `rev` to reverse input
+
+Use `sort /etc/passwd | cut -d':' -f 1,6` display all user and home directories sorted by users 
