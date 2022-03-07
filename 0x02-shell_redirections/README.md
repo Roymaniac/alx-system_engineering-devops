@@ -25,3 +25,5 @@ Use `ls -1t | head -10` display the 10 newest files in the cwd
 Use `sort | uniq -u` print out words tht appear once
 
 Use `grep "root" /etc/passwd` display lines containing pattern `root` in file `passwd`
+
+Use `grep -c "bin" /etc/passwd` display the number of lines that contain the pattern `bin` in the file `/tect/passwd`
