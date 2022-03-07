@@ -37,3 +37,5 @@ Use `grep -v "bin" /etc/passwd`display line in the file that does not contain `b
 Use `grep ^[[:alpha:]] /etc/ssh/sshd_config` display all line in the file starting with a letter including capital letter
 
 Use `tr 'A' 'Z' | tr 'c' 'e'` replace all character `A` and `c` from input with to `Z` and `e`
+
+Use `tr -d 'c' | tr -d 'C' remove all letter `c` and `C` from input 
