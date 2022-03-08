@@ -25,3 +25,5 @@ Use `echo {a..z}{a..z} | tr ' ' '\n' | grep -v "oo"`
 Use `printf "%0.2f\n" $NUM`
 
 Use `printf '%x\n' $DECIMAL`
+
+Use `tr 'A-Za-z' 'N-ZA-Mn-za-m'`
