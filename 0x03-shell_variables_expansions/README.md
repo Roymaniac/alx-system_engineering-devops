@@ -9,3 +9,5 @@ Use `echo $PATH | tr ":" "\n" | wc -l`
 Use `printenv`
 
 Use `set`
+
+Use `BEST=School`
