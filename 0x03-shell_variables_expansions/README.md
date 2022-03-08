@@ -19,3 +19,5 @@ USE `echo $((TRUEKNOWLEDGE+128))`
 Use `echo $((POWER / DIVIDE))`
 
 Use `echo $((BREATH**LOVE))`
+
+Use `echo {a..z}{a..z} | tr ' ' '\n' | grep -v "oo"`
