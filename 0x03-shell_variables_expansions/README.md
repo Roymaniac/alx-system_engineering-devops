@@ -11,3 +11,5 @@ Use `printenv`
 Use `set`
 
 Use `BEST=School`
+
+Use `export BEST=School`
