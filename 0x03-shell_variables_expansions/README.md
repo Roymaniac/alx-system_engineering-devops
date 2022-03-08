@@ -13,3 +13,5 @@ Use `set`
 Use `BEST=School`
 
 Use `export BEST=School`
+
+USE `echo $((TRUEKNOWLEDGE+128))`
