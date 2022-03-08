@@ -20,6 +20,8 @@ Use `echo $((POWER / DIVIDE))`
 
 Use `echo $((BREATH**LOVE))`
 
+Use `echo $((2#$BINARY))`
+
 Use `echo {a..z}{a..z} | tr ' ' '\n' | grep -v "oo"`
 
 Use `printf "%0.2f\n" $NUM`
