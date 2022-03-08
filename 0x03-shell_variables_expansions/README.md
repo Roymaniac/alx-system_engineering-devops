@@ -27,3 +27,5 @@ Use `printf "%0.2f\n" $NUM`
 Use `printf '%x\n' $DECIMAL`
 
 Use `tr 'A-Za-z' 'N-ZA-Mn-za-m'`
+
+Use `paste - - | cut -d$'\t' -fl`
