@@ -17,3 +17,5 @@ Use `export BEST=School`
 USE `echo $((TRUEKNOWLEDGE+128))`
 
 Use `echo $((POWER / DIVIDE))`
+
+Use `echo $((BREATH**LOVE))`
