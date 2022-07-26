@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" "bad luck" and "good luck" using while, if, elif and else.
-
 i=1
 while (( i <= 10 ))
 do
