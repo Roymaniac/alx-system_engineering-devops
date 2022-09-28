@@ -16,6 +16,6 @@ backend nodes
 	mode http
 	balance roundrobin
 	server 8083-web-01 3.233.220.99
-	server 8083-web-02 3.231.229.36" >> /etc/haproxy/haproxy.cfg
+	server 8083-web-02 44.210.96.192" >> /etc/haproxy/haproxy.cfg
 
 sudo service haproxy restart
