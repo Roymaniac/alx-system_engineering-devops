@@ -41,7 +41,7 @@ listen devroy
         bind :80
         mode http
         balance roundrobin
-        server 8083-web-01 3.233.220.99 check
+        server 8083-web-01 4.200.30.156 check
         server 8083-web-02 44.210.96.192 check
 
 frontend www-http
@@ -56,5 +56,5 @@ frontend www-https
 
 backend web-backend
         redirect scheme https if !{ ssl_fc }
-        server 8083-web-01 3.233.220.99 check
+        server 8083-web-01 44.200.30.156 check
         server 8083-web-02 44.210.96.192 check

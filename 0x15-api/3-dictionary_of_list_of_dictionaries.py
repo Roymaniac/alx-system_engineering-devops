@@ -1,27 +1,37 @@
 #!/usr/bin/python3
-"""Exports data in the JSON format"""
+"""Python script to export data in the JSON format"""
 
-if __name__ == "__main__":
+import json
+import requests
 
-    import json
-    import requests
-    import sys
+base_url = 'https://jsonplaceholder.typicode.com/'
 
-    users = requests.get("https://jsonplaceholder.typicode.com/users")
-    users = users.json()
-    todos = requests.get('https://jsonplaceholder.typicode.com/todos')
-    todos = todos.json()
-    todoAll = {}
 
+def do_request():
+    '''Performs request'''
+    response = requests.get(base_url + 'users/')
+    if response.status_code != 200:
+        return print('Error: status_code:', response.status_code)
+    users = response.json()
+
+    response = requests.get(base_url + 'todos/')
+    if response.status_code != 200:
+        return print('Error: status_code:', response.status_code)
+    todos = response.json()
+
+    data = {}
     for user in users:
-        taskList = []
-        for task in todos:
-            if task.get('userId') == user.get('id'):
-                taskDict = {"username": user.get('username'),
-                            "task": task.get('title'),
-                            "completed": task.get('completed')}
-                taskList.append(taskDict)
-        todoAll[user.get('id')] = taskList
+        user_todos = [todo for todo in todos
+                      if todo.get('userId') == user.get('id')]
+        user_todos = [{'username': user.get('username'),
+                       'task': todo.get('title'),
+                       'completed': todo.get('completed')}
+                      for todo in user_todos]
+        data[str(user.get('id'))] = user_todos
 
-    with open('todo_all_employees.json', mode='w') as f:
-        json.dump(todoAll, f)
+    with open('todo_all_employees.json', 'w') as file:
+        json.dump(data, file)
+
+
+if __name__ == '__main__':
+    do_request()
