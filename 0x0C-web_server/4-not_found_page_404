@@ -11,4 +11,4 @@ sed -i '/listen 80 default_server;/a rewrite ^/redirect_me https://www.youtube.c
 sed -i '/listen 80 default_server;/a error_page 404 /404.html;' /etc/nginx/sites-available/default
 
 ufw allow 'Nginx HTTP'
-service nginx start
+sudo service nginx start
