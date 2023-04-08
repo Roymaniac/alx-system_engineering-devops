@@ -53,3 +53,4 @@ if [ "$(pgrep -c haproxy)" -le 0 ]; then
 else
 	service haproxy restart
 fi
+
